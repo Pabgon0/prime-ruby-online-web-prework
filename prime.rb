@@ -1,9 +1,4 @@
 def prime?(int)
-  if int <= 1
-    false
-  elsif int%2..(int-1)
-    true
-  else
-    false
-  end
+(2..integer - 1).each do |x|
+  if (integer % x) == 0
 end
