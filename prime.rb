@@ -3,7 +3,5 @@ def prime?(int)
     false
   elsif int%2..(int-1)
     true
-  else
-    true
   end
 end
