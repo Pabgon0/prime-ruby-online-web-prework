@@ -3,5 +3,9 @@ def prime?(int)
     false
   else
     x = (2...int)
-      if x % int ==
+      if x % int == 0
+      false
+      end
+  end
+  true
 end
