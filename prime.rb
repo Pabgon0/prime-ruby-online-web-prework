@@ -3,7 +3,7 @@ def prime?(int)
     false
   else
   (2..int-1).each do |x|
-    if int % x == 0
+    if (int%x) == 0
       false
   end
   true
