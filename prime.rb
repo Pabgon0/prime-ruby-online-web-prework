@@ -1,3 +1,5 @@
 def prime?(int)
-  if int
+  if int <= 0
+    false
+  elsif int 
 end
