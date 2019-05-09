@@ -6,5 +6,6 @@ def prime?(int)
     if int % x == 0
       false
     end
+  end
   true
 end
